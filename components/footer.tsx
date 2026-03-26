@@ -21,10 +21,10 @@ export function Footer() {
           <div className="flex flex-col items-center gap-2">
             <CountdownTimer />
             <p className="text-sm text-[#71717a]">
-              Cierran inscripciones el <span className="text-white font-semibold">6 de Abril</span>.{" "}
+              Cierran inscripciones el <span className="text-white font-semibold">24 de Mayo</span>.{" "}
               {/* Start: <span className="text-white font-semibold">7 de Abril 2026</span>.{" "}
               Para el <span className="text-white font-semibold">10 de Mayo de 2026</span>. */}
-              Start: <span className="text-white font-semibold">10 de Mayo de 2026</span>.{" "}
+              Start: <span className="text-white font-semibold">24 de Mayo de 2026</span>.{" "}
             </p>
           </div>
           <a href="#aplicar">
@@ -67,7 +67,7 @@ export function Footer() {
           </nav>
 
           {/* Social */}
-          <div className="flex items-center gap-3">
+          {/* <div className="flex items-center gap-3">
             <a
               href="#"
               className="text-[#71717a] hover:text-white transition-colors p-2"
@@ -89,7 +89,7 @@ export function Footer() {
             >
               <Instagram className="size-4" />
             </a>
-          </div>
+          </div> */}
         </div>
 
         <p className="text-center text-xs text-[#3f3f46] mt-10">

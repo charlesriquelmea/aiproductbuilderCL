@@ -114,11 +114,11 @@ export function HeroSection() {
               </span>
               <span className="flex items-center gap-1.5">
                 <Clock className="size-4 text-violet" />
-                Cierra 6 de Abril
+                Cierra 24 de Mayo
               </span>
               <span className="flex items-center gap-1.5">
                 <Rocket className="size-4 text-violet" />
-                Start: 10 de Mayo
+                Start: 24 de Mayo
               </span>
               <span className="flex items-center gap-1.5">
                 <DollarSign className="size-4 text-neon-green" />
