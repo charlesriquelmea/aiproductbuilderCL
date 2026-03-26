@@ -35,7 +35,7 @@ export function Navbar() {
           <div className="hidden md:flex items-center gap-6">
             <div className="flex flex-col items-end gap-0.5">
               <CountdownTimer compact />
-              <span className="text-[10px] text-[#71717a] font-mono">Cierran inscripciones el 6 de Abril</span>
+              <span className="text-[10px] text-[#71717a] font-mono">Cierran inscripciones el 24 de Mayo</span>
             </div>
             <a href="#aplicar">
               <Button className="bg-[#22c55e] hover:bg-[#16a34a] text-black font-semibold px-5">
