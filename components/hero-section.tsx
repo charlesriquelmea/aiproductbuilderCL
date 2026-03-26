@@ -118,7 +118,7 @@ export function HeroSection() {
               </span>
               <span className="flex items-center gap-1.5">
                 <Rocket className="size-4 text-violet" />
-                Start: 7 de Abril
+                Start: 10 de Mayo
               </span>
               <span className="flex items-center gap-1.5">
                 <DollarSign className="size-4 text-neon-green" />

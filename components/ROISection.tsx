@@ -22,9 +22,14 @@ export default function ROISection() {
             <div className="max-w-6xl mx-auto space-y-8">
                 {/* Encabezado */}
                 <div className="text-center space-y-4">
-                    <Badge className="bg-gradient-to-r from-violet-600 to-purple-500 text-white px-3 py-1 rounded-full">
+                    <Badge className="bg-linear-to-r from-violet-600 to-purple-500 text-white px-3 py-1 rounded-full">
                         EL RETORNO DE TU INVERSIÓN (ROI)
                     </Badge>
+                    {/* <p className="text-[#7c3aed] font-mono text-sm mb-3 uppercase tracking-wider">
+                        EL RETORNO DE TU INVERSIÓN (ROI)
+                    </p> 
+                    */}
+
                     <h1 className="text-3xl md:text-4xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-[#c4b5fd] via-indigo-400 to-blue-400">
                         No compras un curso. Construyes un portafolio rentable desde el Día 1.
                     </h1>
@@ -107,7 +112,8 @@ export default function ROISection() {
                                 <p>
                                     Inversión:{" "}
                                     <span className="line-through text-red-400">900.000 CLP</span>{" "}
-                                    <span className="font-bold text-green-400">700.000 CLP con referido</span>
+                                    {/* <span className="font-bold text-green-400">700.000 CLP por referido</span> */}
+                                    <span className="font-bold text-green-400">$700.000 CLP (Solo por referido: Si traes un amigo, familiar y juntos c/u paga) Hasta 3 pagos de $233.333 CLP a 0, 30 y 60 días  (Tarjeta de Crédito)</span>
                                 </p>
                             </div>
 
