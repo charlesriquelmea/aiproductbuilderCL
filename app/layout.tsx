@@ -24,17 +24,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Vibe Coder Bootcamp | Cohort #1 Founding Members',
     description: 'Aprende Vibe Coding en 8 semanas. Solo 20 cupos disponibles.',
-    type: 'website',
+    url: 'https://cl.aiengineerbuilder.protolylat.com/',
   },
   icons: {
     icon: 'favicon.png',
     apple: 'favicon.png',
   },
-  /*   openGraph: {
-    title: "AI Receptionist 2.0 - SDR Clínico para MedSpas NY & NJ",
-    description: "AI Receptionist 2.0: responde en 5 segundos, habla español o inglés, cobra depositos vía Stripe y sincroniza con GoHighLevel. HIPAA-Compliant",
-    url: "medspas.protolylat.com",
-  }, */
+
 }
 
 export const viewport: Viewport = {
