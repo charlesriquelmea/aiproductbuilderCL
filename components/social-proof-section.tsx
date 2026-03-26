@@ -2,12 +2,13 @@
 
 import { motion } from "framer-motion"
 import { Building2, Users, Gem } from "lucide-react"
+import FounderSection from "./FounderSection"
 
 const proofCards = [
   {
     icon: Building2,
     title: "Metodolog\u00eda probada",
-    desc: "Buskero es un spin-off de Protoly, una software factory con experiencia real construyendo productos digitales para clientes reales.",
+    desc: "AI Engineer Builders es un spin-off de Protolylat, una software factory con experiencia real de más de 12 años construyendo productos digitales para clientes reales.",
     accent: "text-[#7c3aed]",
     border: "border-[#7c3aed]/20",
   },
@@ -66,6 +67,8 @@ export function SocialProofSection() {
             </motion.div>
           ))}
         </div>
+
+        <FounderSection/>
 
         <motion.div
           initial={{ opacity: 0, y: 20 }}
