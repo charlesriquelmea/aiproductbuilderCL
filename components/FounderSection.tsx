@@ -12,7 +12,7 @@ const stats = [
 
 export default function FounderSection() {
   return (
-    <section className="w-full bg-[#0a0a0a] text-zinc-100 py-20 px-6">
+    <section className="w-full text-zinc-100 py-20 px-6">
       <div className="max-w-5xl mx-auto space-y-16">
 
         {/* Tagline superior */}
