@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from 'next'
 import { Inter, JetBrains_Mono } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
+import RefTracker from '@/components/ref-tracker'
 
 const inter = Inter({
   subsets: ['latin'],
@@ -30,7 +31,6 @@ export const metadata: Metadata = {
     icon: 'favicon.png',
     apple: 'favicon.png',
   },
-
 }
 
 export const viewport: Viewport = {
@@ -59,6 +59,7 @@ export default function RootLayout({
         />
       </head>
       <body className="font-sans antialiased bg-[#0a0a0a] text-white">
+        <RefTracker />
         {children}
         <Analytics />
       </body>

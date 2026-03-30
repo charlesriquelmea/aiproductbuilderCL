@@ -9,6 +9,8 @@ const links = [
   { label: "Programa", href: "#curriculum" },
   { label: "Garantía", href: "#garantia" },
   { label: "FAQ", href: "#faq" },
+  { label: "Portal Afiliado", href: "/afiliado" },
+  { label: "Admin", href: "/admin" },
   { label: "Contacto", href: "mailto:hola@buskero.com" },
 ]
 

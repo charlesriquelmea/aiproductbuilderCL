@@ -13,15 +13,12 @@ import { UrgencyCTASection } from "@/components/urgency-cta-section"
 import { FAQSection } from "@/components/faq-section"
 import { ApplicationForm } from "@/components/application-form"
 import { Footer } from "@/components/footer"
-import Ofer from "@/components/ofer"
 import ROISection from "@/components/ROISection"
 
 export default function Home() {
   return (
     <main className="min-h-screen bg-[#0a0a0a]">
       <Navbar />
-
-{/* TODO: mover de aca a un lugar mejor*/}
 
       <HeroSection />
       <PainPointsSection />
