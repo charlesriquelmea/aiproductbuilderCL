@@ -26,20 +26,28 @@ export function Navbar() {
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
-          <a href="#" className="flex items-center gap-2">
-            {/* <span className="text-xl font-bold font-mono text-white" style={{ textShadow: "0 0 20px rgba(124, 58, 237, 0.5)" }}>
-              Buskero
-            </span> */}
-          </a>
+          <div className="flex items-center gap-8">
+            <a href="/" className="flex items-center gap-2">
+              <div className="size-8 rounded-lg bg-gradient-to-br from-violet to-violet-800 flex items-center justify-center shadow-lg shadow-violet/20">
+                <span className="text-white font-bold text-lg leading-none">P</span>
+              </div>
+              <span className="hidden sm:block text-sm font-bold text-white tracking-tight">Protolylat</span>
+            </a>
 
-          <div className="hidden md:flex items-center gap-6">
+            <div className="hidden md:flex items-center gap-6">
+              <a href="/courses" className="text-xs font-bold text-[#71717a] hover:text-white uppercase tracking-widest transition-colors">Cursos</a>
+              <a href="/afiliado" className="text-xs font-bold text-[#71717a] hover:text-white uppercase tracking-widest transition-colors">Afiliados</a>
+            </div>
+          </div>
+
+          <div className="hidden md:flex items-center gap-6 text-right">
             <div className="flex flex-col items-end gap-0.5">
               <CountdownTimer compact />
-              <span className="text-[10px] text-[#71717a] font-mono">Cierran inscripciones el 24 de Mayo</span>
+              <span className="text-[10px] text-[#71717a] font-mono leading-none">Cierra 24 May</span>
             </div>
-            <a href="#aplicar">
-              <Button className="bg-[#22c55e] hover:bg-[#16a34a] text-black font-semibold px-5">
-                <span className="text-black">Quiero ser AI Product Builder</span>
+            <a href="/courses">
+              <Button size="sm" className="bg-neon-green hover:bg-[#16a34a] text-black font-bold h-9 px-5">
+                <span className="text-black">Explorar</span>
               </Button>
             </a>
           </div>
@@ -62,14 +70,20 @@ export function Navbar() {
             exit={{ opacity: 0, height: 0 }}
             className="md:hidden glass border-t border-[#27272a]/50"
           >
-            <div className="px-4 py-4 flex flex-col gap-3">
-              <div className="flex flex-col gap-0.5">
+            <div className="px-6 py-8 flex flex-col gap-6">
+              <div className="flex flex-col gap-1">
                 <CountdownTimer compact />
-                <span className="text-[10px] text-[#71717a] font-mono">Cierran inscripciones el 6 de Abril</span>
+                <span className="text-[10px] text-[#71717a] font-mono leading-none">Cierra el 24 de Mayo</span>
               </div>
-              <a href="#aplicar" onClick={() => setMobileOpen(false)}>
-                <Button className="w-full bg-[#22c55e] hover:bg-[#16a34a] text-black font-semibold">
-                  <span className="text-black">Quiero ser AI Product Builder</span>
+
+              <div className="flex flex-col gap-4 py-4 border-y border-[#27272a]/50">
+                <a href="/courses" className="text-sm font-bold text-white uppercase tracking-widest" onClick={() => setMobileOpen(false)}>Cursos</a>
+                <a href="/afiliado" className="text-sm font-bold text-white uppercase tracking-widest" onClick={() => setMobileOpen(false)}>Afiliados</a>
+              </div>
+
+              <a href="/courses" onClick={() => setMobileOpen(false)}>
+                <Button className="w-full bg-[#22c55e] hover:bg-[#16a34a] text-black font-bold py-6">
+                  <span className="text-black">Explorar Cursos</span>
                 </Button>
               </a>
             </div>

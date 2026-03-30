@@ -58,7 +58,7 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body className="font-sans antialiased bg-[#0a0a0a] text-white">
+      <body className="font-sans antialiased bg-[#0a0a0a] text-white overflow-x-hidden">
         <RefTracker />
         {children}
         <Analytics />

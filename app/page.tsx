@@ -17,7 +17,7 @@ import ROISection from "@/components/ROISection"
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-[#0a0a0a]">
+    <main className="min-h-screen bg-[#0a0a0a] ">
       <Navbar />
 
       <HeroSection />
